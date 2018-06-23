@@ -80,17 +80,27 @@
   </dependencies>
 
 	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8086/mithuntechnologies/repository/flipkart-releases/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8086/mithuntechnologies/repository/flipkart-snapshots/</url>
-	    </snapshotRepository>
-	</distributionManagement>
+   <repository>
+       <id>nexus</id>
+       <name>Mithun Technologies Releases Nexus Repository</name>
+       <url>http://localhost:8086/reddykdr/repository/reddykdr-releases/</url>
+     </repository>
+     <snapshotRepository>
+       <id>nexus</id>
+       <name>Mithun Technologies Snapshot Nexus Repository </name>
+       <url>http://localhost:8086/reddykdr/repository/reddykdr-snapshots/</url>
+     </snapshotRepository> 
+	 <!--  <repository>
+        <id>jfrog</id>
+        <name>BDC11-L-72001XD-releases</name>
+        <url>http://localhost:8087/artifactory/jfrog-maven-local-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>jfrog</id>
+        <name>BDC11-L-72001XD-snapshots</name>
+        <url>http://localhost:8087/artifactory/jfrog-maven-local-repo</url>
+    </snapshotRepository> 
+   </distributionManagement>
 	
 	
   <build>
