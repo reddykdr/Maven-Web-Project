@@ -99,7 +99,7 @@
         <id>jfrog</id>
         <name>BDC11-L-72001XD-snapshots</name>
         <url>http://localhost:8087/artifactory/jfrog-maven-local-repo</url>
-    </snapshotRepository> 
+    </snapshotRepository> --> 
    </distributionManagement>
 	
 	
