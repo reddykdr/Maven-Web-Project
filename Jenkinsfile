@@ -9,6 +9,6 @@ node {
 
        stage('BuildArtifact'){
 
-          bat mvn clean
+          bat 'mvn clean'
        }	       
 }
