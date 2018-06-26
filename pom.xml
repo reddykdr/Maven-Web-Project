@@ -80,7 +80,7 @@
   </dependencies>
 
 	<distributionManagement>
-   <repository>
+  <!-- <repository>
        <id>nexus</id>
        <name>Mithun Technologies Releases Nexus Repository</name>
        <url>http://localhost:8086/reddykdr/repository/reddykdr-releases/</url>
@@ -89,8 +89,8 @@
        <id>nexus</id>
        <name>Mithun Technologies Snapshot Nexus Repository </name>
        <url>http://localhost:8086/reddykdr/repository/reddykdr-snapshots/</url>
-     </snapshotRepository> 
-	 <!--  <repository>
+     </snapshotRepository> -->
+	   <repository>
         <id>jfrog</id>
         <name>BDC11-L-72001XD-releases</name>
         <url>http://localhost:8087/artifactory/jfrog-maven-local-repo</url>
@@ -99,7 +99,7 @@
         <id>jfrog</id>
         <name>BDC11-L-72001XD-snapshots</name>
         <url>http://localhost:8087/artifactory/jfrog-maven-local-repo</url>
-    </snapshotRepository> --> 
+    </snapshotRepository> 
    </distributionManagement>
 	
 	
