@@ -9,7 +9,7 @@ node {
 
        stage('BuildArtifact'){
 
-          bat "mvn install"
+          bat "mvn clean"
        }
 	   
       stage('Sonar') {
