@@ -8,9 +8,7 @@ node {
        }
 
        stage('BuildArtifact'){
-          // build step
-	  echo "PATH = ${PATH}"
-          echo "M2_HOME = ${M2_HOME}"     
+          // build step	     
           bat 'mvn install'
        }
 	   
